@@ -10,7 +10,7 @@ header{
     background-color: #0084FD;
 }
 .container{
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -36,6 +36,43 @@ header{
 .button{
     color: black;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 0;
+}
+.button-2{
+    background-color: #0084FD;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+.sotto-container{
+    background-color: #b5ddff;
+}
+.phone{
+    height:200px;
+}
+.option{
+    font-size: 3.5rem;
+    color: #0084FD;
+}
+.first{
+    padding: 10px 0;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -0.75rem;
+    padding: 2px ;
+}
+.blocco-unico{
+    display: flex;
+}
+
+.first .cards .card{
+    width: calc(100%/3)-1.5rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+.first .cards .card:first-child{
+    width: calc((100%/3)*2)-1.5rem;
 }
