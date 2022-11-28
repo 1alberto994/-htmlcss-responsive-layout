@@ -76,3 +76,41 @@ header{
 .first .cards .card:first-child{
     width: calc((100%/3)*2)-1.5rem;
 }
+.second{
+    background-color: #9792e4;
+    padding: 15px;
+}
+.second .row{
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+.second .row .col{
+    width: 50%;
+}
+#planning-1{
+    height: 300px;
+}
+#planning-2{
+    height: 200px;
+}
+.col-right{
+    background-color: white;
+}
+.third{
+    text-align: center;
+    padding: 10px;
+}
+.super-card{
+    background-color: #9792e4;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.testimonial{
+    height: 100px;
+    border-radius: 50%;
+}
